@@ -39,6 +39,9 @@ LOGIN_MAX_RETRY_COUNT = 5
 # 接收 PIN 的等待时间，单位为秒
 WAITING_TIME_OF_PIN = 60
 
+# 代理设置（如果需要）
+PROXIES = {"http": "http://3WEHesaNuU:06fZPH1meD@45.207.220.196:19209", "https": "http://3WEHesaNuU:06fZPH1meD@45.207.220.196:19209"}
+
 # 是否检查验证码解决器的使用情况
 CHECK_CAPTCHA_SOLVER_USAGE = True
 
